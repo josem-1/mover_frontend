@@ -1,0 +1,40 @@
+body {
+  background-color: #001f3f;
+  color: #fff;
+  font-family: sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6,
+a, p, li, label {
+  color: #fff;
+}
+
+
+select {
+  background-color: #ADD8E6; 
+  color: #000;               
+  border: none;
+  padding: 0.5rem;
+  border-radius: 4px;
+}
+
+
+input[type="text"], input[type="email"], input[type="password"] {
+  background-color: #ADD8E6;
+  color: #000;
+  border: none;
+  padding: 0.5rem;
+  border-radius: 4px;
+}
+
+button {
+  background-color: #28a745; 
+  color: #fff;
+  border: none;
+  padding: 0.6rem 1rem;
+  border-radius: 4px;
+  cursor: pointer;
+}
+button:hover {
+  background-color: #20c337;
+}

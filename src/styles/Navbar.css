@@ -1,0 +1,52 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  background-color: #001f3f; 
+  color: #fff; 
+}
+  
+.navbar__logo {
+  text-transform: uppercase;
+  font-size: 3rem;
+  text-decoration: none;
+  color: #fff;
+}
+  
+.navbar__account-btn {
+  background: none;
+  border: none;
+  font-size: 1.25rem;
+  cursor: pointer;
+}
+  
+.navbar__dropdown {
+  position: absolute;
+  font-size: 1;
+  right: 1rem;
+  top: 3rem;
+  background: #ADD8E6;
+  border: 1px solid #ddd;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  display: flex;
+  flex-direction: column;
+}
+  
+.navbar__dropdown a,
+.navbar__dropdown button {
+  padding: 0.5rem 1rem;
+  font-size: 1;
+  text-align: left;
+  background: none;
+  border: none;
+  cursor: pointer;
+  text-decoration: none;
+  color: #000;
+}
+  
+.navbar__dropdown a:hover,
+.navbar__dropdown button:hover {
+  background: #f0f0f0;
+}
+  
