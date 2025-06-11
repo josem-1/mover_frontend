@@ -11,7 +11,7 @@ export default function Dashboard() {
   const [directorCounts, setDirectorCounts] = useState([]);
   const [loading, setLoading]= useState(true);
   const [error, setError] = useState(''); //starting to see the words 'useState' in my dreams, i am going freaking mad
-  //why did i choose this major.........
+  
 
   useEffect(() => {
     async function fetchData(){
@@ -33,7 +33,7 @@ export default function Dashboard() {
         const genresArr = Object.entries(genreMap)
           .map(([genre, count]) => ({ genre, count }))
           .sort((a, b) => b.count - a.count);
-        setGenreCounts(genresArr);//definatly aint gonna try to have some ranking visualization for this crap. this was hard as is
+        setGenreCounts(genresArr);
 
         
         const dirMap = {};
