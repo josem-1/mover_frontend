@@ -12,7 +12,7 @@ export default function MediaDetail() {
   const [similar, setSimilar]= useState([]);
   const [providers, setProviders] = useState({});
   const [loading, setLoading]  = useState(true);
-  const [error, setError] = useState(''); //use state usestate usestate usestate i hate this 
+  const [error, setError] = useState(''); //use state usestate usestate usestate
 
   const [wlStatus, setWlStatus] = useState('idle');
   const [histStatus, setHistStatus] = useState('idle');
