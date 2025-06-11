@@ -16,7 +16,7 @@ export default function SearchResults() {
     if (!type || !q) return;
 
     setLoading(true);
-    api.get('/search?type='+type +'&q='+ encodeURIComponent(q))//i hate this major so much
+    api.get('/search?type='+type +'&q='+ encodeURIComponent(q))
       .then(res => {
         setResults(res.data.results || []);
         setError('');
