@@ -1,5 +1,5 @@
 import React, {useState } from 'react';
-import {useNavigate, createSearchParams } from 'react-router-dom';//i hate this project i hate this project i hate this projec i aahta this projec it ajfoa fawaf jwoaf ewja;f woea fjwe;afj eawafj elw afewjl fjewaf jewrafnoerfnoer
+import {useNavigate, createSearchParams } from 'react-router-dom';
 
 const SEARCH_TYPES = [
   {value:'movie', label:'Movie' },
@@ -18,7 +18,7 @@ export default function SearchBar() {
     if (!query.trim()) return; //trim takes off extra crap at beginining and end
     navigate({
       pathname:'/search',
-      search: createSearchParams({type, q: query }).toString(), //switching between search route and controller adn this in the frontend is gonna make me break my laptop
+      search: createSearchParams({type, q: query }).toString(), //switching between search route and controller 
     });
   };
 
