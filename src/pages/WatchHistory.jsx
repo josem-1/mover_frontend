@@ -31,7 +31,7 @@ export default function WatchHistory() {
       );
     } catch (err) {
       console.error('Failed to delete from watch history:', err);
-      // i hate this i hate this i hate thios
+      
     }
   };
 
